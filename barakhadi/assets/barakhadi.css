@@ -1,0 +1,41 @@
+
+.grid a{flex-wrap:wrap}.grid a small{white-space:normal}.grid li{min-width:0}
+[lang=hi],.hi{font-family:'Noto Sans Devanagari','Nirmala UI','Mangal','Kohinoor Devanagari',var(--font)}
+.chart{border-collapse:collapse;width:100%;min-width:760px}
+.chart th,.chart td{border:1px solid var(--line);padding:0;text-align:center}
+.chart th{background:var(--surface2);padding:8px 4px;font-size:1rem}
+.chart td button,.chart th a{display:block;width:100%;min-height:44px;border:0;background:none;color:var(--ink);font:600 1.25rem/1.2 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);cursor:pointer;padding:6px 2px;text-decoration:none}
+.chart td button small{display:block;font:400 .68rem var(--font);color:var(--soft)}
+.chart td button:hover,.chart td button.on{background:var(--surface2)}
+.chart th a{color:var(--link)}
+.chart tr>:first-child{position:sticky;left:0;background:var(--surface2);z-index:1}
+.forms{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr))}
+.forms li{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px;text-align:center}
+.forms button{border:0;background:none;color:var(--ink);cursor:pointer;font:700 2.4rem/1.3 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);min-width:64px;min-height:56px}
+.forms .rom{display:block;font:600 .9rem var(--mono);color:var(--accent)}
+.forms .mn{display:block;font-size:.78rem;color:var(--soft)}
+.forms .w{display:block;margin-top:6px;font-size:1.05rem}.forms .w small{display:block;color:var(--soft);font-size:.82rem}
+.chant{font:700 clamp(1.2rem,.9rem + 2vw,1.9rem)/1.7 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);background:var(--surface);border:2px solid var(--teal);border-radius:var(--r);padding:12px 14px;margin:14px 0}
+.chant small{display:block;font:500 .85rem/1.5 var(--mono);color:var(--soft)}
+.trace{font:700 clamp(2rem,1.2rem + 5vw,3.6rem)/1.5 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);color:transparent;-webkit-text-stroke:1.2px var(--soft);letter-spacing:.12em;border-bottom:2px dashed var(--line);margin:8px 0;overflow-wrap:anywhere}
+.wl{list-style:none;padding:0;display:grid;gap:6px 14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr))}
+.wl li{padding:6px 0;border-bottom:1px solid var(--line)}.wl b{font-size:1.15rem}
+.pn{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:22px 0}
+.lgrid{list-style:none;padding:0;margin:14px 0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(64px,1fr))}
+.lgrid a{display:grid;place-items:center;min-height:56px;background:var(--surface);border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);font:700 1.5rem 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font)}
+.lgrid a:hover{border-color:var(--accent)}
+#sheet{background:#fff;color:#000;border:1px solid var(--line);border-radius:8px;padding:18px;margin:16px 0;overflow:hidden}
+#sheet h3{margin:0 0 4px;font-size:1.1rem;color:#000}#sheet .nm{font-size:.85rem;color:#333;margin:0 0 10px}
+#sheet .row{font:700 44px/1.6 'Noto Sans Devanagari','Nirmala UI','Mangal',sans-serif;border-bottom:1.5px dashed #999;letter-spacing:.14em;white-space:nowrap;overflow:hidden}
+#sheet .row.t{color:transparent;-webkit-text-stroke:1px #888}#sheet .row.e{height:70px}
+#sheet .fill{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;font:700 30px/1.5 'Noto Sans Devanagari','Nirmala UI','Mangal',sans-serif;text-align:center}
+#sheet .fill span{border:1.5px solid #555;border-radius:6px;min-height:58px}
+#sheet .match{display:grid;grid-template-columns:1fr 1fr;gap:6px 60px;font:600 24px/1.9 'Noto Sans Devanagari','Nirmala UI','Mangal',sans-serif}
+#sheet .ft2{margin-top:12px;font-size:.75rem;color:#555;text-align:right}
+.qz{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:16px 0;text-align:center}
+.qz .ask{font:700 3.4rem/1.3 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);margin:6px 0}
+.qz .opts{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);max-width:420px;margin:12px auto}
+.qz .opts button{min-height:56px;font:700 1.5rem 'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);border-radius:12px;border:2px solid var(--line);background:var(--field);color:var(--ink);cursor:pointer}
+.qz .opts button.ok{border-color:var(--ok);background:rgba(22,163,74,.15)}.qz .opts button.no{border-color:var(--bad)}
+@media print{.hd,.ft,.crumbs,.noprint,.sponsor-slot,.boot,.finder{display:none!important}body{background:#fff}#sheet{border:0;padding:0;margin:0}
+ .chart td button small{color:#333}.trace{-webkit-text-stroke:1px #888}main>*:not(.printme){display:none}main>.printme{display:block}}
