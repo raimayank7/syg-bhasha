@@ -1,0 +1,9 @@
+[hidden]{display:none!important}
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.tool input[type=text]{width:100%;min-height:52px;font-size:1.15rem;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);box-sizing:border-box;margin:6px 0 10px}
+.tc{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,170px),1fr))}
+.tc a{display:block;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-height:56px;overflow-wrap:anywhere}
+.tc a b{display:block}.tc a small{color:var(--soft)}
+.tbl{overflow-x:auto}.st{width:100%;border-collapse:collapse}.st th,.st td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.st th[scope=row]{font-weight:600}
+.ex{list-style:none;padding:0}.ex li{margin:8px 0}.ex small{display:block;color:var(--soft)}
+.note{background:var(--surface2);border-radius:10px;padding:10px 12px}

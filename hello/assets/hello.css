@@ -1,0 +1,46 @@
+/* hello: phrase tables, language cards */
+.nat{font-size:1.35rem;line-height:1.6;font-weight:600}
+.snd{color:var(--accent);font-style:italic}
+td.nat,th.nat{white-space:normal}
+.pt{width:100%;border-collapse:collapse}
+.pt td,.pt th{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.pt .acts{white-space:nowrap}
+.pt .acts button{min-height:40px;min-width:60px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:600 .85rem var(--font);cursor:pointer;padding:4px 10px;margin-right:6px}
+.pt .acts button.on{background:var(--accent);color:var(--accent-ink)}
+.pt .lg a{font-weight:700}
+.pt .lg small{display:block;color:var(--soft)}
+.lc{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr))}
+.lc a{display:block;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-height:64px}
+.lc a b{display:block;font-size:1.3rem}.lc a small{color:var(--soft)}
+.dir-rtl{direction:rtl;text-align:right}
+@media(max-width:620px){
+ .pt thead{display:none}
+ .pt,.pt tbody,.pt tr,.pt td{display:block;width:100%}
+ .pt tr{border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;margin:10px 0;background:var(--surface)}
+ .pt td{border:0;padding:3px 0}
+ .pt td[data-l]::before{content:attr(data-l) ": ";color:var(--soft);font-size:.8rem}
+ .pt td.nat::before{display:none}
+ .pt .lg::before{display:none}
+ .pt .acts{margin-top:6px}
+}
+@media print{.pt .acts,.chips,.finder{display:none!important}}
+.nat[lang=hi]{font-family:'Noto Sans Devanagari','Segoe UI',system-ui,sans-serif}
+.nat[lang=mr]{font-family:'Noto Sans Devanagari','Segoe UI',system-ui,sans-serif}
+.nat[lang=pa]{font-family:'Noto Sans Gurmukhi','Segoe UI',system-ui,sans-serif}
+.nat[lang=bn]{font-family:'Noto Sans Bengali','Segoe UI',system-ui,sans-serif}
+.nat[lang=ta]{font-family:'Noto Sans Tamil','Segoe UI',system-ui,sans-serif}
+.nat[lang=te]{font-family:'Noto Sans Telugu','Segoe UI',system-ui,sans-serif}
+.nat[lang=gu]{font-family:'Noto Sans Gujarati','Segoe UI',system-ui,sans-serif}
+.nat[lang=kn]{font-family:'Noto Sans Kannada','Segoe UI',system-ui,sans-serif}
+.nat[lang=ml]{font-family:'Noto Sans Malayalam','Segoe UI',system-ui,sans-serif}
+.nat[lang=ur]{font-family:'Noto Nastaliq Urdu','Segoe UI',system-ui,sans-serif}
+.nat[lang=ar]{font-family:'Noto Naskh Arabic','Segoe UI',system-ui,sans-serif}
+.nat[lang=th]{font-family:'Noto Sans Thai','Segoe UI',system-ui,sans-serif}
+.nat[lang=el]{font-family:'Noto Sans Greek','Segoe UI',system-ui,sans-serif}
+.nat[lang=ur]{line-height:2.2}
+.nat[lang=ja]{font-family:'Yu Gothic','Hiragino Sans','Noto Sans JP','Meiryo',system-ui,sans-serif}
+.nat[lang=ko]{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',system-ui,sans-serif}
+.nat[lang=zh]{font-family:'Microsoft YaHei','PingFang SC','Noto Sans SC',system-ui,sans-serif}
+.ck{display:inline-block;font-size:.78rem;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.ck.ok{background:rgba(22,163,74,.16);color:var(--ink)}
+.ck.one{background:rgba(217,119,6,.2);color:var(--ink)}

@@ -1,0 +1,9 @@
+[hidden]{display:none!important}
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.three{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr))}
+.tool select{width:100%;min-height:52px;font-size:1.4rem;padding:6px 10px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);margin-top:4px}
+.out{font-size:6rem;text-align:center;line-height:1.2;margin:10px 0}.info{color:var(--soft);overflow-wrap:anywhere}
+.tc{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr))}
+.tc a{display:block;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-height:60px}
+.tc a b{display:block}.tc a small{color:var(--soft)}
+.tbl{overflow-x:auto}.st{width:100%;border-collapse:collapse}.st th,.st td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.st th[scope=row]{font-weight:600}.st td.k{font-size:1.6rem}

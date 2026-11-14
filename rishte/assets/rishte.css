@@ -1,0 +1,5 @@
+[hidden]{display:none!important}
+.tbl{overflow-x:auto}.st{width:100%;border-collapse:collapse}.st th,.st td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.st th[scope=row]{font-weight:600}.st th small{display:block;color:var(--soft);font-weight:400}
+.st td [lang]{font-size:1.25rem;margin-right:6px}.st td.t [lang]{font-size:1.6rem}
+.bd{display:inline-block;font-size:.72rem;padding:1px 8px;border-radius:999px;border:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+.bd.ok{background:var(--surface2)}.bd.one{border-style:dashed;color:var(--soft)}
