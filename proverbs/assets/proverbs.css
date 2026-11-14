@@ -1,0 +1,10 @@
+[hidden]{display:none!important}
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.tool .big{font-size:1.5rem;font-weight:700;margin:6px 0}
+.sl{list-style:none;padding:0;margin:12px 0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr))}
+.sl li{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;min-width:0;overflow-wrap:anywhere}
+.sl a{color:var(--ink);text-decoration:none}.sl small{display:block;color:var(--soft);margin-top:4px}
+.tc{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr))}
+.tc a{display:block;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-height:60px}
+.tc a b{display:block}.tc a small{color:var(--soft)}
+.eg{font-style:italic;border-left:3px solid var(--line);padding-left:12px}
