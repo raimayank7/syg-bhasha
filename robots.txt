@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://bhasha.shareyourgroup.com/sitemap.xml
+Sitemap: https://bhasha.shareyourgroup.com/sitemap.xml
