@@ -1,4 +1,4 @@
-const CACHE = 'syg-m-langs-5010c6a73a', SHELL = ["/langs/assets/site.css?v=403176beac", "/langs/assets/site.js?v=38b96724e9", "/langs/icons/logo-light.webp", "/langs/icons/logo-dark.webp"];
+const CACHE = 'syg-m-langs-75c362940e', SHELL = ["/langs/assets/site.css?v=9cff45ef36", "/langs/assets/site.js?v=38b96724e9", "/langs/icons/logo-light.webp", "/langs/icons/logo-dark.webp"];
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).catch(() => {})); });
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.indexOf('syg-m-langs-') === 0 && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', e => {
